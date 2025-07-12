@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Allan TUMUSIME</a>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h1>Hi, I'm Allan TUMUSIME</h1>
+                <p class="tagline">A Passionate Web Developer on the Path to Full-Stack Mastery</p>
+                <img src="allan.JPG" alt="my photo" class="hero-img">
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-me">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a motivated and detail-oriented Web Developer with practical experience in building responsive, user-friendly websites and applications. I enjoy turning ideas into real, functional digital solutions that are both visually appealing and high-performing.
+
+I thrive in collaborative environments where I can work with others to solve problems, streamline user experiences, and continuously improve my skills. I’m especially passionate about using technology to address real-world challenges and making a meaningful impact through code.
+
+Currently, I’m focused on growing into a full-stack developer and contributing to impactful projects in a dynamic, forward-thinking team.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <ul>
+                            <li>Git/GitHub</li>
+                            <li>VS Code</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <div class="job-entry">
+                    <h3>Web Developer <span class="company">@ CS NJEMA</span></h3>
+                    <p class="duration">2024 – 2025</p>
+                    <ul>
+                        <li>Website and Application Development</li>
+                        <li>Problem Solving & Debugging</li>
+                    </ul>
+                </div>
+               
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Data Extraction Project Using Regex</h3>
+                        <p>The goal was to extract structured data like emails, phone numbers, and URLs from web content using JavaScript with Regular Expressions (Regex), applying skills in pattern matching, data parsing, clean coding, GitHub hosting, and best practices in documentation and testing.</p>
+                        <a href="https://github.com/0Allan1/alu-scripting" target="_blank" class="btn-small">GitHub Repo</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Web Development Practice Projects</h3>
+                        <p>Creating responsive websites using HTML, CSS, and JavaScript,
+
+Handling form validation, button interactivity, and DOM manipulation.
+
+Working on event-driven JS scripts, like updating paragraph content on button click.
+
+</p>
+                        <a href="https://github.com/0Allan1/alu-higher_level_programming" target="_blank" class="btn-small">GitHub Repo</a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me via email or connect on social media.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="https://github.com/0Allan1" target="_blank" aria-label="GitHub"><img src="github.png" alt="GitHub"></a>
+                    <a href="#" target="_blank" aria-label="GitHub"><img src="insta.jpeg" alt="GitHub"></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn"></a>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Allan TUMUSIME. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
